@@ -9,7 +9,7 @@ import {
   SiGmail,
   SiCodepen,
 } from 'react-icons/si'
-import pic from '../Image/profile.png'
+import pic from '../Image/Profile.jpg'
 
 export default function Contact() {
   const [result, setResult] = React.useState('')
@@ -103,7 +103,7 @@ export default function Contact() {
           <img
             src={pic}
             alt="Profile Picture"
-            className="h-[300px] w-[300px] mb-3"
+            className="h-[300px] w-[300px] mb-3 rounded-md shadow-md"
           ></img>
           <p className="sm:text-2xl text-justify text-white">
             Hello! I'm Souvik Saha, a professional React JS Developer. Let's
